@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: task-s3-enable-data-services.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Depois de descobrir buckets do S3 no BlueXP , você pode usar os serviços de dados do NetApp para backup, disposição em categorias, classificação e sincronização de dados. 
+---
+= Use os serviços de dados do NetApp com buckets do S3
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Depois de descobrir buckets do S3 no BlueXP , você pode usar os serviços de dados do NetApp para backup, disposição em categorias, classificação e sincronização de dados.
+
+* Use *backup e recuperação do BlueXP * para fazer backup dos dados dos sistemas ONTAP e Cloud Volumes ONTAP locais para o storage de objetos S3.
++
+Para começar, vá para o Canvas e arraste e solte um ambiente de trabalho ONTAP ou Cloud Volumes ONTAP no ambiente de trabalho do Amazon S3.
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Saiba mais sobre como fazer backup de dados do ONTAP para armazenamento do Amazon S3"^].
+
+* Use a *disposição em camadas do BlueXP * para categorizar dados inativos de clusters ONTAP on-premises para storage de objetos S3.
++
+Para começar, vá para o Canvas e arraste e solte um ambiente de trabalho do ONTAP no ambiente de trabalho do Amazon S3.
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-aws.html["Saiba mais sobre a disposição em camadas de dados do ONTAP no armazenamento Amazon S3"^].
+
+* Use *BlueXP  copy and Sync* para sincronizar dados com ou a partir de buckets do S3.
++
+Para começar, vá para o Canvas e arraste e solte o ambiente de trabalho de origem no ambiente de trabalho de destino. Seu ambiente de trabalho do Amazon S3 pode ser a origem ou o destino.
+
++
+Você também pode selecionar seu ambiente de trabalho do Amazon S3 e clicar em *Copiar e sincronizar* no painel Serviços para sincronizar dados de ou para buckets do S3.
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["Saiba mais sobre o serviço de cópia e sincronização do BlueXP"^].
+
+* Use *classificação BlueXP * para verificar seus buckets do S3 em busca de dados pessoais e confidenciais. A classificação BlueXP  pode verificar qualquer intervalo na conta, independentemente de ter sido criado para uma solução NetApp.
++
+Para começar, selecione seu ambiente de trabalho do Amazon S3 e selecione a opção apropriada na seção *classificação* do painel Serviços para iniciar a verificação dos buckets do S3.
+
++
+https://docs.netapp.com/us-en/bluexp-classification/task-scanning-s3.html["Saiba mais sobre o serviço de classificação BlueXP "^].
+
+

@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-add-s3-bucket.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Depois que seu ambiente de trabalho do Amazon S3 estiver disponível no Canvas, você poderá adicionar buckets adicionais diretamente do BlueXP . 
+---
+= Adicione S3 baldes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Depois que seu ambiente de trabalho do Amazon S3 estiver disponível no Canvas, você poderá adicionar buckets adicionais diretamente do BlueXP .
+
+.Passos
+. No Canvas, clique duas vezes no ambiente de trabalho do Amazon S3 para visualizar a página Visão geral dos buckets do Amazon S3 e clique em *Adicionar bucket*.
++
+image:screenshot-add-amazon-s3-bucket-button.png["Uma captura de tela que mostra os detalhes de um ambiente de trabalho do Amazon S3 e o botão Adicionar bucket."]
+
++
+A página _Adicionar bucket_ é exibida.
+
++
+image:screenshot-add-amazon-s3-bucket.png["Uma captura de tela mostrando a página Adicionar balde para que você possa criar seu próprio bucket do Amazon S3."]
+
+. Na página Adicionar bucket, insira as informações necessárias para criar o bucket e clique em *Apply*.
++
+.. Introduza o nome que pretende utilizar para o intervalo.
+.. Selecione a conta da AWS que será a proprietária do bucket. Esta pode ser a conta principal onde o conetor foi implantado ou pode ser um https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["Conta diferente que você adicionou ao BlueXP "^].
+.. Selecione a região da AWS onde o bucket será criado.
+.. Como opção, você pode habilitar o bloqueio de objetos S3 no bucket para armazenar objetos usando um modelo WORM (write-once-read-many). Se você pretende usar o bloqueio de objetos, você deve ativá-lo ao criar o bucket. A ativação do bloqueio de objetos também permite o Controle de versão. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Saiba mais sobre o bloqueio de objetos na documentação do Amazon S3"^].
++
+O balde é criado.
+
+
+
+
+
+.O que vem a seguir
+Não é possível configurar manualmente o Controle de versão, Tags ou criptografia ao adicionar inicialmente um bucket. Depois que o bucket é criado, você pode configurar essas outras propriedades do bucket. link:task-change-s3-bucket-settings.html["Saiba mais sobre como alterar as configurações do balde"].
