@@ -1,5 +1,7 @@
 = Capacidade de adicionar novos buckets do BlueXP
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
